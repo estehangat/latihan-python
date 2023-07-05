@@ -5,25 +5,25 @@
 
 # Upper
 upper = "Hello".upper()
-print(upper)
+print(upper) # Output : HELLO
 
 ## Mengecek Upper
 aa = "MICROSOFT"
 up = aa.isupper()
-print(up)
+print(up) # Output : True
 
 # Lower
 lower = "Hello".lower()
-print(lower)
+print(lower) # Output : hello
 
 ## Mengecek Lower
 bb = "microsoft"
 low = bb.islower()
-print(low)
+print(low) # Output : True
 
 # Capitalize
 capt = "hello".capitalize()
-print(capt)
+print(capt) # Output : Hello
 
 # isalpha() -> semua huruf
 # isalnum() -> huruf dan angka
@@ -33,35 +33,35 @@ print(capt)
 
 # Starts With
 starts = "Bill Gates".startswith("Bill")
-print(starts)
+print(starts) # Output : True
 
 # Ends With
 ends = "Bill Gates".endswith("Gates")
-print(ends)
+print(ends) # Output : True
 
 # Penggabungan Komponen
 ## Join
 join = ['Elon','Musk','SpaceX']
 gabung = ','.join(join)
-print(gabung)
+print(gabung) # Output : Elon,Musk,SpaceX
 
 ## Split
 split = "ElonwMuskwSpaceX"
-print(split.split("w"))
+print(split.split("w")) # Output : ['Elon', 'Musk', 'SpaceX']
 
 # Alokasi Karakter
 ## Ke Kanan
 kanan = "Microsoft".rjust(10)
-print("'" + kanan + "'")
+print("'" + kanan + "'") # Output : ' Microsoft'
 
 ## Ke Kiri
 kiri = "Microsoft".ljust(10)
-print("'" + kiri + "'")
+print("'" + kiri + "'") # Output : 'Microsoft '
 
 ## Ke Tengah
 tengah = "Microsoft".center(11,"W")
-print("'" + tengah + "'")
+print("'" + tengah + "'") # Output : 'WMicrosoftW'
 
 # Menghilangkan Tanda dari Alokasi
 strip = tengah.strip("W")
-print("'" + strip + "'")
+print("'" + strip + "'") # Output : 'Microsoft'
