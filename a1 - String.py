@@ -52,3 +52,8 @@ Website : www.microsoft.com/
 # Name : Steve Jobs
 # Company : Microsoft
 # Website : www.microsoft.com/
+
+# Mengatur Lebar
+user = "Aokuri"
+string = f"Lebar : {user:>10}"
+print(string) # Output : Lebar :     Aokuri
