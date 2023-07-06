@@ -1,9 +1,9 @@
 # Elif Statement
 
-user = int(input("Ketik angka : "))
+user = int(input("Ketik angka : ")) # Input : 21
 if user == 21 :
-    print("Omagaaa")
-if user == 21 :
-    print("Maenggg")
+    print("Omagaaa") # Output : Omagaaa
+elif user == 9 :
+    print("Maenggg") # Output : Maenggg
 else :
-    print("Not my G")
+    print("Not my G") # Output : Not my G
