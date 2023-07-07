@@ -33,7 +33,7 @@ while True:
     # Break jika count melebihi user
         break
 
-## Belah Ketupat
+## Segitiga Sama Kaki
 user = 10
 count = 1
 space = int(user/2)
