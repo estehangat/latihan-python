@@ -22,3 +22,10 @@ dataNumber.reverse()
 data.reverse()
 print(dataNumber) # Output : [9, 9, 8, 8, 6, 6, 6, 6, 4, 4, 4, 2, 2, 2, 1, 1, 0, 0]
 print(data) # Output : ['Musk', 'Gates', 'Elon', 'Bill']
+
+# Copy List
+data = ["Windah","Basudara","Tukul"]
+dataCopy = data.copy()
+dataCopy[1] = "Bersaudara"
+print(data) # Output : ['Windah', 'Basudara', 'Tukul']
+print(dataCopy) # Output : ['Windah', 'Bersaudara', 'Tukul']
