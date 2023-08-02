@@ -32,7 +32,7 @@ print(string) # Output : Desimal 215.9
 ## Leading Zero
 user = 215.901
 string = f"Leading Zero {user:010.1f}"
-print(string) # Output : Leading Zero 215.9
+print(string) # Output : Leading Zero 00000215.9
 
 ## Plus Minus
 plus = +21
